@@ -1,0 +1,32 @@
+# Spack environment providing build dependencies for Quicksilver.
+#
+# This does NOT build Quicksilver. It only provisions the toolchain
+# (C++ compiler + MPI with OpenMP support) so you can build the local
+# source tree yourself with `make`.
+#
+# Usage:
+#   spack env activate -d .
+#   spack install            # installs MPI + compiler into the env
+#   cd src
+#   make CXX=mpicxx \
+#        CXXFLAGS="-std=c++11 -O2 -fopenmp" \
+#        CPPFLAGS="-DHAVE_MPI -DHAVE_OPENMP" \
+#        LDFLAGS="-fopenmp"
+#
+# The `qs` binary is produced in src/. Edit the source and re-run `make`
+# as normal -- Spack is out of the loop after the env is activated.
+spack:
+  specs:
+    - openmpi
+    - gmake
+
+  packages:
+    all:
+      providers:
+        mpi: [openmpi]
+
+  view: true
+
+  concretizer:
+    unify: true
+    reuse: true
