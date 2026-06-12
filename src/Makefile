@@ -111,7 +111,7 @@ SHELL = /bin/bash
 # Activate the env at the repo root first: `spack env activate -d ..`
 CXX = mpicxx
 CXXFLAGS = -std=c++11 -O2 -fopenmp
-CPPFLAGS = -DHAVE_MPI -DHAVE_OPENMP
+CPPFLAGS = -DHAVE_MPI -DHAVE_OPENMP -DHAVE_ASYNC_MPI
 LDFLAGS = -fopenmp
 
 #AMD with HIP

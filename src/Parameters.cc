@@ -148,6 +148,7 @@ ostream& operator<<(ostream& out, const SimulationParameters& pp)
    out << "   fTally: " << pp.fluxTallyReplications << "\n";
    out << "   cTally: " << pp.cellTallyReplications << "\n";
    out << "   coralBenchmark: " << pp.coralBenchmark << "\n";
+   out << "   ablateTestDone: " << pp.testDoneAblation << "\n";
    out << "   crossSectionsOut:" << pp.crossSectionsOut << "\n";
    out << endl;
    return out;
@@ -253,6 +254,7 @@ namespace
       addArg("bTally",           'B', 1, 'i', &(sp.balanceTallyReplications), 0, "number of balance tally replications");
       addArg("fTally",           'F', 1, 'i', &(sp.fluxTallyReplications),    0, "number of scalar flux tally replications");
       addArg("cTally",           'C', 1, 'i', &(sp.cellTallyReplications),    0, "number of scalar cell tally replications");
+      addArg("ablateTestDone",   'A', 1, 'i', &(sp.testDoneAblation), 0, "drop blocking test-done confirms: 0=none, 1=inner, 2=inner+outer");
 
       processArgs(argc, argv);
 
@@ -414,6 +416,7 @@ namespace
       input.getValue<int>("fTally",sp.fluxTallyReplications);
       input.getValue<int>("cTally",sp.cellTallyReplications);
       input.getValue<int>("coralBenchmark",sp.coralBenchmark);
+      input.getValue<int>("ablateTestDone",sp.testDoneAblation);
 
    }
 }

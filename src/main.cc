@@ -294,7 +294,13 @@ void cycleTracking(MonteCarlo *monteCarlo)
         } // while not done: Test_Done_New()
 
         // Everything should be done normally.
-        done = monteCarlo->particle_buffer->Test_Done_New( MC_New_Test_Done_Method::Blocking );
+        // Ablation level >= 2 also drops this outer blocking confirmation:
+        // the cycle then ends on the non-blocking protocol's verdict alone,
+        // with no synchronized re-check of the particle counts.
+        if ( monteCarlo->_params.simulationParams.testDoneAblation >= 2 )
+            done = true;
+        else
+            done = monteCarlo->particle_buffer->Test_Done_New( MC_New_Test_Done_Method::Blocking );
 
     } while ( !done );
 

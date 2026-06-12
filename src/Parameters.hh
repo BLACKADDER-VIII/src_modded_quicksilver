@@ -130,7 +130,8 @@ struct SimulationParameters
      balanceTallyReplications(1),
      fluxTallyReplications(1),
      cellTallyReplications(1),
-     coralBenchmark(0)
+     coralBenchmark(0),
+     testDoneAblation(0)
    {};
 
    std::string inputFile;        //!< name of input file
@@ -164,6 +165,7 @@ struct SimulationParameters
    int fluxTallyReplications;    //!< Number of replications for the scalar flux tally
    int cellTallyReplications;    //!< Number of replications for the scalar cell tally
    int coralBenchmark;           //!< enable correctness check for Coral2 benchmark
+   int testDoneAblation;         //!< drop blocking test-done confirms: 0=none, 1=inner, 2=inner+outer
 };
 
 struct Parameters

@@ -382,6 +382,14 @@ MC_Particle_Buffer::MC_Particle_Buffer(MonteCarlo *mcco_, size_t bufferSize_)
     this->new_test_done_method = MC_New_Test_Done_Method::Blocking;
 #endif
 
+    // The ablation levels are defined on the non-blocking termination
+    // protocol, so requesting one forces NonBlocking even in builds
+    // without HAVE_ASYNC_MPI.
+    if ( mcco_->_params.simulationParams.testDoneAblation > 0 )
+    {
+        this->new_test_done_method = MC_New_Test_Done_Method::NonBlocking;
+    }
+
     this->test_done.Zero_Out();
 
     this->num_buffers = 0;
@@ -678,6 +686,14 @@ bool MC_Particle_Buffer::Iallreduce_ParticleCounts()
     {
         if( this->test_done.non_blocking_sum[0] == this->test_done.non_blocking_sum[1] )
         {
+            // Ablation level >= 1: trust the (temporally inconsistent)
+            // non-blocking snapshot and skip the confirming blocking
+            // allreduce.  A spurious equality is then only caught by the
+            // outer blocking check in cycleTracking().
+            if ( mcco->_params.simulationParams.testDoneAblation >= 1 )
+            {
+                return true;
+            }
             bool answer = this->Allreduce_ParticleCounts();
             return answer;
         }
