@@ -111,8 +111,15 @@ SHELL = /bin/bash
 # Activate the env at the repo root first: `spack env activate -d ..`
 CXX = mpicxx
 CXXFLAGS = -std=c++11 -O2 -fopenmp
-CPPFLAGS = -DHAVE_MPI -DHAVE_OPENMP -DHAVE_ASYNC_MPI
+CPPFLAGS = -DHAVE_MPI -DHAVE_OPENMP
 LDFLAGS = -fopenmp
+
+# Asynchronous MPI is opt-in.  The DEFAULT target prompts at build time and
+# re-invokes make with ASYNC_MPI=1 when the user answers yes, which appends
+# -DHAVE_ASYNC_MPI here.  Override non-interactively with `make ASYNC_MPI=1`.
+ifeq ($(ASYNC_MPI),1)
+CPPFLAGS += -DHAVE_ASYNC_MPI
+endif
 
 #AMD with HIP
 #ROCM_ROOT = /opt/rocm-5.6.0
@@ -342,7 +349,16 @@ SOURCES= \
 
 CC_OBJECTS=$(SOURCES:.cc=.o)
 
-DEFAULT: ${Quicksilver_EXE}
+DEFAULT:
+	@if [ -z "$(ASYNC_MPI)" ]; then \
+		read -p "Build with asynchronous MPI (-DHAVE_ASYNC_MPI)? [y/N] " ans; \
+		case "$$ans" in \
+			[yY]*) echo "==> building WITH -DHAVE_ASYNC_MPI";    $(MAKE) --no-print-directory ASYNC_MPI=1 ${Quicksilver_EXE} ;; \
+			*)     echo "==> building WITHOUT -DHAVE_ASYNC_MPI"; $(MAKE) --no-print-directory ASYNC_MPI=0 ${Quicksilver_EXE} ;; \
+		esac; \
+	else \
+		$(MAKE) --no-print-directory ${Quicksilver_EXE}; \
+	fi
 
 git_hash.hh:
 	echo "#define GIT_HASH \"$(GITHASH)\" "> git_hash.hh
