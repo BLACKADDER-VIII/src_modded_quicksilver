@@ -22,7 +22,7 @@ while (HERE / f"runs_data/run_{run_suffix}").is_dir():
     trace_total = payload / "trace_total_per_process.txt"
     if trace_total.is_file():
         shutil.move(str(trace_total), str(dest / "trace_total_per_process.txt"))
-    for pattern in ("*.csmpi", "*.symtab"):
+    for pattern in ("*.symtab"):
         for f in payload.glob(pattern):
             shutil.move(str(f), str(dest / f.name))
 
