@@ -1,0 +1,586 @@
+  _____   _ __   __  __  _____   _____
+ |  __ \ | '_ \ |  \/  ||  __ \ |_   _|
+ | |__) || | | || \  / || |__) |  | |
+ |  ___/ |_| |_|| |\/| ||  ___/   | |
+ | |            | |  | || |      _| |_
+ |_|            |_|  |_||_|     |_____|
+
+
+ Application:
+  MPI interface: C
+
+ Global settings:
+  Pcontrol: 5
+
+ Loaded modules:
+  Stack default:
+    libdumpi (Pcontrol: 1)
+    libpluto
+    libcsmpi
+
+CSMPI Runtime starting up...
+terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397750] *** Process received signal ***
+[nd-detect-integrate:397750] Signal: Aborted (6)
+[nd-detect-integrate:397750] Signal code:  (-6)
+terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397756] *** Process received signal ***
+[nd-detect-integrate:397756] Signal: Aborted (6)
+[nd-detect-integrate:397756] Signal code:  (-6)
+terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397739] *** Process received signal ***
+[nd-detect-integrate:397739] Signal: Aborted (6)
+[nd-detect-integrate:397739] Signal code:  (-6)
+terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397744] *** Process received signal ***
+[nd-detect-integrate:397744] Signal: Aborted (6)
+[nd-detect-integrate:397744] Signal code:  (-6)
+[nd-detect-integrate:397744] [ 0] terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397754] *** Process received signal ***
+[nd-detect-integrate:397754] Signal: Aborted (6)
+[nd-detect-integrate:397754] Signal code:  (-6)
+terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397746] *** Process received signal ***
+[nd-detect-integrate:397746] Signal: Aborted (6)
+[nd-detect-integrate:397746] Signal code:  (-6)
+[nd-detect-integrate:397746] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7359f8c42520]
+[nd-detect-integrate:397746] [ 1] terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397758] *** Process received signal ***
+[nd-detect-integrate:397758] Signal: Aborted (6)
+[nd-detect-integrate:397758] Signal code:  (-6)
+[nd-detect-integrate:397758] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f6fa7442520]
+[nd-detect-integrate:397758] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f6fa74969fc]
+[nd-detect-integrate:397758] [ 2] terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397748] *** Process received signal ***
+[nd-detect-integrate:397748] Signal: Aborted (6)
+[nd-detect-integrate:397748] Signal code:  (-6)
+[nd-detect-integrate:397748] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x78dbd3e42520]
+[nd-detect-integrate:397748] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x78dbd3e969fc]
+[nd-detect-integrate:397748] [ 2] terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397742] *** Process received signal ***
+[nd-detect-integrate:397742] Signal: Aborted (6)
+[nd-detect-integrate:397742] Signal code:  (-6)
+[nd-detect-integrate:397742] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x72d573242520]
+[nd-detect-integrate:397742] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x72d5732969fc]
+[nd-detect-integrate:397742] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x72d573242476]
+[nd-detect-integrate:397742] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x72d5732287f3]
+[nd-detect-integrate:397742] [ 4] terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397737] *** Process received signal ***
+[nd-detect-integrate:397737] Signal: Aborted (6)
+[nd-detect-integrate:397737] Signal code:  (-6)
+[nd-detect-integrate:397737] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x71fd21842520]
+[nd-detect-integrate:397737] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x71fd218969fc]
+[nd-detect-integrate:397737] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x71fd21842476]
+[nd-detect-integrate:397737] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x71fd218287f3]
+[nd-detect-integrate:397737] [ 4] terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397738] *** Process received signal ***
+[nd-detect-integrate:397738] Signal: Aborted (6)
+[nd-detect-integrate:397738] Signal code:  (-6)
+[nd-detect-integrate:397738] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x738242642520]
+[nd-detect-integrate:397738] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7382426969fc]
+[nd-detect-integrate:397738] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x738242642476]
+[nd-detect-integrate:397738] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7382426287f3]
+[nd-detect-integrate:397738] [ 4] terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397735] *** Process received signal ***
+[nd-detect-integrate:397735] Signal: Aborted (6)
+[nd-detect-integrate:397735] Signal code:  (-6)
+[nd-detect-integrate:397735] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x736447a42520]
+[nd-detect-integrate:397735] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x736447a969fc]
+[nd-detect-integrate:397735] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x736447a42476]
+[nd-detect-integrate:397735] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x736447a287f3]
+[nd-detect-integrate:397735] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x736447ea2b9e]
+[nd-detect-integrate:397735] [ 5] terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397761] *** Process received signal ***
+[nd-detect-integrate:397761] Signal: Aborted (6)
+[nd-detect-integrate:397761] Signal code:  (-6)
+[nd-detect-integrate:397761] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7ce28a842520]
+[nd-detect-integrate:397761] [ 1] terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397736] *** Process received signal ***
+[nd-detect-integrate:397736] Signal: Aborted (6)
+[nd-detect-integrate:397736] Signal code:  (-6)
+[nd-detect-integrate:397736] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7d2a96e42520]
+[nd-detect-integrate:397736] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7d2a96e969fc]
+[nd-detect-integrate:397736] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7d2a96e42476]
+[nd-detect-integrate:397736] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7d2a96e287f3]
+[nd-detect-integrate:397736] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7d2a972a2b9e]
+[nd-detect-integrate:397736] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7d2a972ae20c]
+[nd-detect-integrate:397736] [ 6] terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+[nd-detect-integrate:397752] *** Process received signal ***
+[nd-detect-integrate:397752] Signal: Aborted (6)
+[nd-detect-integrate:397752] Signal code:  (-6)
+[nd-detect-integrate:397752] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7df941442520]
+[nd-detect-integrate:397752] [ 1] [nd-detect-integrate:397759] *** Process received signal ***
+[nd-detect-integrate:397759] Signal: Aborted (6)
+[nd-detect-integrate:397759] Signal code:  (-6)
+[nd-detect-integrate:397759] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x73782b842520]
+[nd-detect-integrate:397759] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x73782b8969fc]
+[nd-detect-integrate:397759] [ 2] [nd-detect-integrate:397750] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7c8e1fc42520]
+[nd-detect-integrate:397750] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7c8e1fc969fc]
+[nd-detect-integrate:397750] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7c8e1fc42476]
+[nd-detect-integrate:397750] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7c8e1fc287f3]
+[nd-detect-integrate:397750] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7c8e200a2b9e]
+[nd-detect-integrate:397750] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7c8e200ae20c]
+[nd-detect-integrate:397750] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7c8e200ae277]
+[nd-detect-integrate:397750] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7c8e200ae4d8]
+[nd-detect-integrate:397750] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x7c8e1f5f061b]
+[nd-detect-integrate:397750] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x7c8e1f5ef928]
+[nd-detect-integrate:397750] [10] [nd-detect-integrate:397756] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x74fc85e42520]
+[nd-detect-integrate:397756] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x74fc85e969fc]
+[nd-detect-integrate:397756] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x74fc85e42476]
+[nd-detect-integrate:397756] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x74fc85e287f3]
+[nd-detect-integrate:397756] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x74fc862a2b9e]
+[nd-detect-integrate:397756] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x74fc862ae20c]
+[nd-detect-integrate:397756] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x74fc862ae277]
+[nd-detect-integrate:397756] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x74fc862ae4d8]
+[nd-detect-integrate:397756] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x74fc856dd61b]
+[nd-detect-integrate:397756] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x74fc856dc928]
+[nd-detect-integrate:397756] [10] [nd-detect-integrate:397739] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7e1578c42520]
+[nd-detect-integrate:397739] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7e1578c969fc]
+[nd-detect-integrate:397739] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7e1578c42476]
+[nd-detect-integrate:397739] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7e1578c287f3]
+[nd-detect-integrate:397739] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7e15790a2b9e]
+[nd-detect-integrate:397739] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7e15790ae20c]
+[nd-detect-integrate:397739] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7e15790ae277]
+[nd-detect-integrate:397739] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7e15790ae4d8]
+[nd-detect-integrate:397739] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7397e3a42520]
+[nd-detect-integrate:397744] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7397e3a969fc]
+[nd-detect-integrate:397744] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7397e3a42476]
+[nd-detect-integrate:397744] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7397e3a287f3]
+[nd-detect-integrate:397744] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7397e3ea2b9e]
+[nd-detect-integrate:397744] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7397e3eae20c]
+[nd-detect-integrate:397744] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7397e3eae277]
+[nd-detect-integrate:397744] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7397e3eae4d8]
+[nd-detect-integrate:397744] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x7397e33f061b]
+[nd-detect-integrate:397744] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x7397e33ef928]
+[nd-detect-integrate:397744] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x7397e33e9a42]
+[nd-detect-integrate:397744] [11] [nd-detect-integrate:397754] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7bd4e4c42520]
+[nd-detect-integrate:397754] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7bd4e4c969fc]
+[nd-detect-integrate:397754] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7bd4e4c42476]
+[nd-detect-integrate:397754] [ 3] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7359f8c969fc]
+[nd-detect-integrate:397746] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7359f8c42476]
+[nd-detect-integrate:397746] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7359f8c287f3]
+[nd-detect-integrate:397746] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7359f90a2b9e]
+[nd-detect-integrate:397746] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7359f90ae20c]
+[nd-detect-integrate:397746] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7359f90ae277]
+[nd-detect-integrate:397746] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7359f90ae4d8]
+[nd-detect-integrate:397746] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x7359f85f061b]
+[nd-detect-integrate:397746] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x7359f85ef928]
+[nd-detect-integrate:397746] [10] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f6fa7442476]
+[nd-detect-integrate:397758] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7f6fa74287f3]
+[nd-detect-integrate:397758] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7f6fa78a2b9e]
+[nd-detect-integrate:397758] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7f6fa78ae20c]
+[nd-detect-integrate:397758] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7f6fa78ae277]
+[nd-detect-integrate:397758] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7f6fa78ae4d8]
+[nd-detect-integrate:397758] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x7f6fa6c8461b]
+[nd-detect-integrate:397758] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x7f6fa6c83928]
+[nd-detect-integrate:397758] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x7f6fa6c7da42]
+[nd-detect-integrate:397758] [11] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x78dbd3e42476]
+[nd-detect-integrate:397748] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x78dbd3e287f3]
+[nd-detect-integrate:397748] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x78dbd42a2b9e]
+[nd-detect-integrate:397748] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x78dbd42ae20c]
+[nd-detect-integrate:397748] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x78dbd42ae277]
+[nd-detect-integrate:397748] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x78dbd42ae4d8]
+[nd-detect-integrate:397748] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x78dbd37f061b]
+[nd-detect-integrate:397748] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x78dbd37ef928]
+[nd-detect-integrate:397748] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x78dbd37e9a42]
+[nd-detect-integrate:397748] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x78dbd37e7f5a]
+[nd-detect-integrate:397748] [12] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x72d5736a2b9e]
+[nd-detect-integrate:397742] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x72d5736ae20c]
+[nd-detect-integrate:397742] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x72d5736ae277]
+[nd-detect-integrate:397742] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x72d5736ae4d8]
+[nd-detect-integrate:397742] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x72d572bf061b]
+[nd-detect-integrate:397742] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x72d572bef928]
+[nd-detect-integrate:397742] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x72d572be9a42]
+[nd-detect-integrate:397742] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x72d572be7f5a]
+[nd-detect-integrate:397742] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x72d572be2956]
+[nd-detect-integrate:397742] [13] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x71fd21ca2b9e]
+[nd-detect-integrate:397737] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x71fd21cae20c]
+[nd-detect-integrate:397737] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x71fd21cae277]
+[nd-detect-integrate:397737] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x71fd21cae4d8]
+[nd-detect-integrate:397737] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x71fd2117b61b]
+[nd-detect-integrate:397737] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x71fd2117a928]
+[nd-detect-integrate:397737] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x71fd21174a42]
+[nd-detect-integrate:397737] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x71fd21172f5a]
+[nd-detect-integrate:397737] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x71fd2116d956]
+[nd-detect-integrate:397737] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x71fd2119f380]
+[nd-detect-integrate:397737] [14] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x738242aa2b9e]
+[nd-detect-integrate:397738] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x738242aae20c]
+[nd-detect-integrate:397738] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x738242aae277]
+[nd-detect-integrate:397738] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x738242aae4d8]
+[nd-detect-integrate:397738] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x738241f7b61b]
+[nd-detect-integrate:397738] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x738241f7a928]
+[nd-detect-integrate:397738] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x738241f74a42]
+[nd-detect-integrate:397738] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x738241f72f5a]
+[nd-detect-integrate:397738] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x738241f6d956]
+[nd-detect-integrate:397738] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x738241f9f380]
+[nd-detect-integrate:397738] [14] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x736447eae20c]
+[nd-detect-integrate:397735] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x736447eae277]
+[nd-detect-integrate:397735] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x736447eae4d8]
+[nd-detect-integrate:397735] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x7364473f061b]
+[nd-detect-integrate:397735] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x7364473ef928]
+[nd-detect-integrate:397735] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x7364473e9a42]
+[nd-detect-integrate:397735] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x7364473e7f5a]
+[nd-detect-integrate:397735] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x7364473e2956]
+[nd-detect-integrate:397735] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x736447414380]
+[nd-detect-integrate:397735] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x7364473dfd2b]
+[nd-detect-integrate:397735] [15] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7ce28a8969fc]
+[nd-detect-integrate:397761] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7ce28a842476]
+[nd-detect-integrate:397761] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7ce28a8287f3]
+[nd-detect-integrate:397761] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7ce28aca2b9e]
+[nd-detect-integrate:397761] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7ce28acae20c]
+[nd-detect-integrate:397761] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7ce28acae277]
+[nd-detect-integrate:397761] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7ce28acae4d8]
+[nd-detect-integrate:397761] [ 8] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7d2a972ae277]
+[nd-detect-integrate:397736] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7d2a972ae4d8]
+[nd-detect-integrate:397736] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x7d2a966dd61b]
+[nd-detect-integrate:397736] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x7d2a966dc928]
+[nd-detect-integrate:397736] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x7d2a966d6a42]
+[nd-detect-integrate:397736] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x7d2a966d4f5a]
+[nd-detect-integrate:397736] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x7d2a966cf956]
+[nd-detect-integrate:397736] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x7d2a96701380]
+[nd-detect-integrate:397736] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x7d2a966ccd2b]
+[nd-detect-integrate:397736] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7d2a979fef8c]
+[nd-detect-integrate:397736] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7d2a97aada36]
+[nd-detect-integrate:397736] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x7d2a970a32e9]
+[nd-detect-integrate:397736] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7d2a979fef8c]
+[nd-detect-integrate:397736] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7d2a97aada36]
+[nd-detect-integrate:397736] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x7d2a9683dfbd]
+[nd-detect-integrate:397736] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7d2a979fef8c]
+[nd-detect-integrate:397736] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x7d2a979fedba]
+[nd-detect-integrate:397736] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x7d2a979fee75]
+[nd-detect-integrate:397736] [24] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7df9414969fc]
+[nd-detect-integrate:397752] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7df941442476]
+[nd-detect-integrate:397752] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7df9414287f3]
+[nd-detect-integrate:397752] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7df9418a2b9e]
+[nd-detect-integrate:397752] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7df9418ae20c]
+[nd-detect-integrate:397752] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7df9418ae277]
+[nd-detect-integrate:397752] [ 7] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x73782b842476]
+[nd-detect-integrate:397759] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x73782b8287f3]
+[nd-detect-integrate:397759] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x73782bca2b9e]
+[nd-detect-integrate:397759] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x73782bcae20c]
+[nd-detect-integrate:397759] [ 6] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x7c8e1f5e9a42]
+[nd-detect-integrate:397750] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x7c8e1f5e7f5a]
+[nd-detect-integrate:397750] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x7c8e1f5e2956]
+[nd-detect-integrate:397750] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x7c8e1f614380]
+[nd-detect-integrate:397750] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x7c8e1f5dfd2b]
+[nd-detect-integrate:397750] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7c8e2091df8c]
+[nd-detect-integrate:397750] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7c8e209cca36]
+[nd-detect-integrate:397750] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x7c8e1fe582e9]
+[nd-detect-integrate:397750] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7c8e2091df8c]
+[nd-detect-integrate:397750] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7c8e209cca36]
+[nd-detect-integrate:397750] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x7c8e1f750fbd]
+[nd-detect-integrate:397750] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7c8e2091df8c]
+[nd-detect-integrate:397750] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x7c8e2091ddba]
+[nd-detect-integrate:397750] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x7c8e2091de75]
+[nd-detect-integrate:397750] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x57e0f6eeb9d7]
+[nd-detect-integrate:397750] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x57e0f6ec00de]
+[nd-detect-integrate:397750] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7c8e1fc29d90]
+[nd-detect-integrate:397750] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7c8e1fc29e40]
+[nd-detect-integrate:397750] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x57e0f6ec03b5]
+[nd-detect-integrate:397750] *** End of error message ***
+/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x74fc856d6a42]
+[nd-detect-integrate:397756] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x74fc856d4f5a]
+[nd-detect-integrate:397756] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x74fc856cf956]
+[nd-detect-integrate:397756] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x74fc85701380]
+[nd-detect-integrate:397756] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x74fc856ccd2b]
+[nd-detect-integrate:397756] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x74fc869d1f8c]
+[nd-detect-integrate:397756] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x74fc86a80a36]
+[nd-detect-integrate:397756] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x74fc860762e9]
+[nd-detect-integrate:397756] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x74fc869d1f8c]
+[nd-detect-integrate:397756] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x74fc86a80a36]
+[nd-detect-integrate:397756] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x74fc8583dfbd]
+[nd-detect-integrate:397756] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x74fc869d1f8c]
+[nd-detect-integrate:397756] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x74fc869d1dba]
+[nd-detect-integrate:397756] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x74fc869d1e75]
+[nd-detect-integrate:397756] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x5dda1a6a59d7]
+[nd-detect-integrate:397756] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x5dda1a67a0de]
+[nd-detect-integrate:397756] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x74fc85e29d90]
+[nd-detect-integrate:397756] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x74fc85e29e40]
+[nd-detect-integrate:397756] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x5dda1a67a3b5]
+[nd-detect-integrate:397756] *** End of error message ***
+/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x7e157857b61b]
+[nd-detect-integrate:397739] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x7e157857a928]
+[nd-detect-integrate:397739] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x7e1578574a42]
+[nd-detect-integrate:397739] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x7e1578572f5a]
+[nd-detect-integrate:397739] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x7e157856d956]
+[nd-detect-integrate:397739] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x7e157859f380]
+[nd-detect-integrate:397739] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x7e157856ad2b]
+[nd-detect-integrate:397739] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7e157986df8c]
+[nd-detect-integrate:397739] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7e157991ca36]
+[nd-detect-integrate:397739] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x7e157924e2e9]
+[nd-detect-integrate:397739] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7e157986df8c]
+[nd-detect-integrate:397739] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7e157991ca36]
+[nd-detect-integrate:397739] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x7397e33e7f5a]
+[nd-detect-integrate:397744] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x7397e33e2956]
+[nd-detect-integrate:397744] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x7397e3414380]
+[nd-detect-integrate:397744] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x7397e33dfd2b]
+[nd-detect-integrate:397744] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7397e468ef8c]
+[nd-detect-integrate:397744] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7397e473da36]
+[nd-detect-integrate:397744] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x7397e38b32e9]
+[nd-detect-integrate:397744] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7397e468ef8c]
+[nd-detect-integrate:397744] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7397e473da36]
+[nd-detect-integrate:397744] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x7397e3550fbd]
+[nd-detect-integrate:397744] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7397e468ef8c]
+[nd-detect-integrate:397744] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x7397e468edba]
+[nd-detect-integrate:397744] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x7397e468ee75]
+[nd-detect-integrate:397744] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x604a70b0d9d7]
+[nd-detect-integrate:397744] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x604a70ae20de]
+[nd-detect-integrate:397744] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7397e3a29d90]
+[nd-detect-integrate:397744] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7397e3a29e40]
+[nd-detect-integrate:397744] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x604a70ae23b5]
+[nd-detect-integrate:397744] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7bd4e4c287f3]
+[nd-detect-integrate:397754] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7bd4e50a2b9e]
+[nd-detect-integrate:397754] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7bd4e50ae20c]
+[nd-detect-integrate:397754] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7bd4e50ae277]
+[nd-detect-integrate:397754] [ 7] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x7359f85e9a42]
+[nd-detect-integrate:397746] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x7359f85e7f5a]
+[nd-detect-integrate:397746] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x7359f85e2956]
+[nd-detect-integrate:397746] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x7359f8614380]
+[nd-detect-integrate:397746] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x7359f85dfd2b]
+[nd-detect-integrate:397746] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7359f993ff8c]
+[nd-detect-integrate:397746] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7359f99eea36]
+[nd-detect-integrate:397746] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x7359f8e852e9]
+[nd-detect-integrate:397746] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7359f993ff8c]
+[nd-detect-integrate:397746] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7359f99eea36]
+[nd-detect-integrate:397746] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x7359f8750fbd]
+[nd-detect-integrate:397746] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7359f993ff8c]
+[nd-detect-integrate:397746] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x7359f993fdba]
+[nd-detect-integrate:397746] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x7359f993fe75]
+[nd-detect-integrate:397746] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x5ce12be979d7]
+[nd-detect-integrate:397746] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x5ce12be6c0de]
+[nd-detect-integrate:397746] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7359f8c29d90]
+[nd-detect-integrate:397746] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7359f8c29e40]
+[nd-detect-integrate:397746] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x5ce12be6c3b5]
+[nd-detect-integrate:397746] *** End of error message ***
+/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x7f6fa6c7bf5a]
+[nd-detect-integrate:397758] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x7f6fa6c76956]
+[nd-detect-integrate:397758] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x7f6fa6ca8380]
+[nd-detect-integrate:397758] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x7f6fa6c73d2b]
+[nd-detect-integrate:397758] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7f6fa7fbbf8c]
+[nd-detect-integrate:397758] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7f6fa806aa36]
+[nd-detect-integrate:397758] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x7f6fa6dba2e9]
+[nd-detect-integrate:397758] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7f6fa7fbbf8c]
+[nd-detect-integrate:397758] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7f6fa806aa36]
+[nd-detect-integrate:397758] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x7f6fa6e3dfbd]
+[nd-detect-integrate:397758] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7f6fa7fbbf8c]
+[nd-detect-integrate:397758] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x7f6fa7fbbdba]
+[nd-detect-integrate:397758] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x7f6fa7fbbe75]
+[nd-detect-integrate:397758] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x61ffb7c309d7]
+[nd-detect-integrate:397758] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x61ffb7c050de]
+[nd-detect-integrate:397758] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f6fa7429d90]
+[nd-detect-integrate:397758] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f6fa7429e40]
+[nd-detect-integrate:397758] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x61ffb7c053b5]
+[nd-detect-integrate:397758] *** End of error message ***
+/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x78dbd37e2956]
+[nd-detect-integrate:397748] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x78dbd3814380]
+[nd-detect-integrate:397748] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x78dbd37dfd2b]
+[nd-detect-integrate:397748] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x78dbd4b7cf8c]
+[nd-detect-integrate:397748] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x78dbd4c2ba36]
+[nd-detect-integrate:397748] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x78dbd40852e9]
+[nd-detect-integrate:397748] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x78dbd4b7cf8c]
+[nd-detect-integrate:397748] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x78dbd4c2ba36]
+[nd-detect-integrate:397748] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x78dbd3950fbd]
+[nd-detect-integrate:397748] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x78dbd4b7cf8c]
+[nd-detect-integrate:397748] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x78dbd4b7cdba]
+[nd-detect-integrate:397748] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x78dbd4b7ce75]
+[nd-detect-integrate:397748] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x5b7849ff59d7]
+[nd-detect-integrate:397748] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x5b7849fca0de]
+[nd-detect-integrate:397748] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x78dbd3e29d90]
+[nd-detect-integrate:397748] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x78dbd3e29e40]
+[nd-detect-integrate:397748] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x5b7849fca3b5]
+[nd-detect-integrate:397748] *** End of error message ***
+/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x72d572c14380]
+[nd-detect-integrate:397742] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x72d572bdfd2b]
+[nd-detect-integrate:397742] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x72d573e92f8c]
+[nd-detect-integrate:397742] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x72d573f41a36]
+[nd-detect-integrate:397742] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x72d5730b52e9]
+[nd-detect-integrate:397742] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x72d573e92f8c]
+[nd-detect-integrate:397742] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x72d573f41a36]
+[nd-detect-integrate:397742] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x72d572d50fbd]
+[nd-detect-integrate:397742] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x72d573e92f8c]
+[nd-detect-integrate:397742] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x72d573e92dba]
+[nd-detect-integrate:397742] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x72d573e92e75]
+[nd-detect-integrate:397742] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x579e281519d7]
+[nd-detect-integrate:397742] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x579e281260de]
+[nd-detect-integrate:397742] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x72d573229d90]
+[nd-detect-integrate:397742] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x72d573229e40]
+[nd-detect-integrate:397742] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x579e281263b5]
+[nd-detect-integrate:397742] *** End of error message ***
+/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x71fd2116ad2b]
+[nd-detect-integrate:397737] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x71fd22472f8c]
+[nd-detect-integrate:397737] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x71fd22521a36]
+[nd-detect-integrate:397737] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x71fd21e4e2e9]
+[nd-detect-integrate:397737] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x71fd22472f8c]
+[nd-detect-integrate:397737] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x71fd22521a36]
+[nd-detect-integrate:397737] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x71fd2123dfbd]
+[nd-detect-integrate:397737] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x71fd22472f8c]
+[nd-detect-integrate:397737] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x71fd22472dba]
+[nd-detect-integrate:397737] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x71fd22472e75]
+[nd-detect-integrate:397737] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x5e41671989d7]
+[nd-detect-integrate:397737] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x5e416716d0de]
+[nd-detect-integrate:397737] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x71fd21829d90]
+[nd-detect-integrate:397737] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x71fd21829e40]
+[nd-detect-integrate:397737] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x5e416716d3b5]
+[nd-detect-integrate:397737] *** End of error message ***
+/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x738241f6ad2b]
+[nd-detect-integrate:397738] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x738243274f8c]
+[nd-detect-integrate:397738] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x738243323a36]
+[nd-detect-integrate:397738] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x738242c4e2e9]
+[nd-detect-integrate:397738] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x738243274f8c]
+[nd-detect-integrate:397738] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x738243323a36]
+[nd-detect-integrate:397738] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x73824203dfbd]
+[nd-detect-integrate:397738] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x738243274f8c]
+[nd-detect-integrate:397738] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x738243274dba]
+[nd-detect-integrate:397738] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x738243274e75]
+[nd-detect-integrate:397738] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x57a0fce639d7]
+[nd-detect-integrate:397738] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x57a0fce380de]
+[nd-detect-integrate:397738] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x738242629d90]
+[nd-detect-integrate:397738] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x738242629e40]
+[nd-detect-integrate:397738] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x57a0fce383b5]
+[nd-detect-integrate:397738] *** End of error message ***
+/home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x736448694f8c]
+[nd-detect-integrate:397735] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x736448743a36]
+[nd-detect-integrate:397735] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x7364478b52e9]
+[nd-detect-integrate:397735] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x736448694f8c]
+[nd-detect-integrate:397735] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x736448743a36]
+[nd-detect-integrate:397735] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x736447550fbd]
+[nd-detect-integrate:397735] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x736448694f8c]
+[nd-detect-integrate:397735] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x736448694dba]
+[nd-detect-integrate:397735] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x736448694e75]
+[nd-detect-integrate:397735] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x63becf3289d7]
+[nd-detect-integrate:397735] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x63becf2fd0de]
+[nd-detect-integrate:397735] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x736447a29d90]
+[nd-detect-integrate:397735] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x736447a29e40]
+[nd-detect-integrate:397735] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x63becf2fd3b5]
+[nd-detect-integrate:397735] *** End of error message ***
+/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x7ce28a1f061b]
+[nd-detect-integrate:397761] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x7ce28a1ef928]
+[nd-detect-integrate:397761] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x7ce28a1e9a42]
+[nd-detect-integrate:397761] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x7ce28a1e7f5a]
+[nd-detect-integrate:397761] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x7ce28a1e2956]
+[nd-detect-integrate:397761] [13] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x5b75c430c9d7]
+[nd-detect-integrate:397736] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x5b75c42e10de]
+[nd-detect-integrate:397736] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7d2a96e29d90]
+[nd-detect-integrate:397736] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7d2a96e29e40]
+[nd-detect-integrate:397736] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x5b75c42e13b5]
+[nd-detect-integrate:397736] *** End of error message ***
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7df9418ae4d8]
+[nd-detect-integrate:397752] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x7df940df061b]
+[nd-detect-integrate:397752] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x7df940def928]
+[nd-detect-integrate:397752] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x7df940de9a42]
+[nd-detect-integrate:397752] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x7df940de7f5a]
+[nd-detect-integrate:397752] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x7df940de2956]
+[nd-detect-integrate:397752] [13] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x73782bcae277]
+[nd-detect-integrate:397759] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x73782bcae4d8]
+[nd-detect-integrate:397759] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x73782b08461b]
+[nd-detect-integrate:397759] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x73782b083928]
+[nd-detect-integrate:397759] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x73782b07da42]
+[nd-detect-integrate:397759] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x7e157863dfbd]
+[nd-detect-integrate:397739] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7e157986df8c]
+[nd-detect-integrate:397739] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x7e157986ddba]
+[nd-detect-integrate:397739] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x7e157986de75]
+[nd-detect-integrate:397739] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x5a3ee9d1e9d7]
+[nd-detect-integrate:397739] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x5a3ee9cf30de]
+[nd-detect-integrate:397739] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7e1578c29d90]
+[nd-detect-integrate:397739] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7e1578c29e40]
+[nd-detect-integrate:397739] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x5a3ee9cf33b5]
+[nd-detect-integrate:397739] *** End of error message ***
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8)[0x7bd4e50ae4d8]
+[nd-detect-integrate:397754] [ 8] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail19json_sax_dom_parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE11parse_errorEmRKSA_RKNS0_9exceptionE+0xd5)[0x7bd4e457b61b]
+[nd-detect-integrate:397754] [ 9] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE18sax_parse_internalINS0_19json_sax_dom_parserISC_EEEEbPT_+0x9e6)[0x7bd4e457a928]
+[nd-detect-integrate:397754] [10] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann6detail6parserINS_10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEEEE5parseEbRSC_+0x348)[0x7bd4e4574a42]
+[nd-detect-integrate:397754] [11] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x7ce28a214380]
+[nd-detect-integrate:397761] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x73782b07bf5a]
+[nd-detect-integrate:397759] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x73782b076956]
+[nd-detect-integrate:397759] [13] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x7ce28a1dfd2b]
+[nd-detect-integrate:397761] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7ce28b521f8c]
+[nd-detect-integrate:397761] [16] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN8nlohmann10basic_jsonISt3mapSt6vectorNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEblmdSaNS_14adl_serializerEE5parseEONS_6detail13input_adapterESt8functionIFbiNSB_6parserISA_E13parse_event_tERSA_EEb+0xc3)[0x7bd4e4572f5a]
+[nd-detect-integrate:397754] [12] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x7df940e14380]
+[nd-detect-integrate:397752] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x7df940ddfd2b]
+[nd-detect-integrate:397752] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_ZN13ConfigurationC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x108)[0x7bd4e456d956]
+[nd-detect-integrate:397754] [13] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7ce28b5d0a36]
+[nd-detect-integrate:397761] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x7ce28aa582e9]
+[nd-detect-integrate:397761] [18] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7df942114f8c]
+[nd-detect-integrate:397752] [16] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x73782b0a8380]
+[nd-detect-integrate:397759] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x73782b073d2b]
+[nd-detect-integrate:397759] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7ce28b521f8c]
+[nd-detect-integrate:397761] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7ce28b5d0a36]
+[nd-detect-integrate:397761] [20] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7df9421c3a36]
+[nd-detect-integrate:397752] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x7df9416582e9]
+[nd-detect-integrate:397752] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7df942114f8c]
+[nd-detect-integrate:397752] [19] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(_Z10csmpi_initP7Runtime+0x134)[0x7bd4e459f380]
+[nd-detect-integrate:397754] [14] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libcsmpi.so(MPI_Init_thread+0x4b)[0x7bd4e456ad2b]
+[nd-detect-integrate:397754] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x73782c3a4f8c]
+[nd-detect-integrate:397759] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x73782c453a36]
+[nd-detect-integrate:397759] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x7ce28a350fbd]
+[nd-detect-integrate:397761] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7ce28b521f8c]
+[nd-detect-integrate:397761] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x7ce28b521dba]
+[nd-detect-integrate:397761] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x7ce28b521e75]
+[nd-detect-integrate:397761] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x5d5e773119d7]
+[nd-detect-integrate:397761] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x5d5e772e60de]
+[nd-detect-integrate:397761] [26] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7df9421c3a36]
+[nd-detect-integrate:397752] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x7df940f50fbd]
+[nd-detect-integrate:397752] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7df942114f8c]
+[nd-detect-integrate:397752] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x7df942114dba]
+[nd-detect-integrate:397752] [23] [15] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7bd4e5862f8c]
+[nd-detect-integrate:397754] [16] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7bd4e5911a36]
+[nd-detect-integrate:397754] [17] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x73782b1ba2e9]
+[nd-detect-integrate:397759] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x73782c3a4f8c]
+[nd-detect-integrate:397759] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x73782c453a36]
+[nd-detect-integrate:397759] [20] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7ce28a829d90]
+[nd-detect-integrate:397761] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7ce28a829e40]
+[nd-detect-integrate:397761] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x5d5e772e63b5]
+[nd-detect-integrate:397761] *** End of error message ***
+/home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x7df942114e75]
+[nd-detect-integrate:397752] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x63e44cd389d7]
+[nd-detect-integrate:397752] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x63e44cd0d0de]
+[nd-detect-integrate:397752] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7df941429d90]
+[nd-detect-integrate:397752] [27] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libpluto.so(MPI_Init_thread+0x39)[0x7bd4e524e2e9]
+[nd-detect-integrate:397754] [18] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7bd4e5862f8c]
+[nd-detect-integrate:397754] [19] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(XMPI_Init_thread+0x5a)[0x7bd4e5911a36]
+[nd-detect-integrate:397754] [20] /home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x73782b23dfbd]
+[nd-detect-integrate:397759] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x73782c3a4f8c]
+[nd-detect-integrate:397759] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x73782c3a4dba]
+[nd-detect-integrate:397759] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x73782c3a4e75]
+[nd-detect-integrate:397759] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x5ee9c691c9d7]
+[nd-detect-integrate:397759] [25] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7df941429e40]
+[nd-detect-integrate:397752] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x63e44cd0d3b5]
+[nd-detect-integrate:397752] *** End of error message ***
+/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs/libdumpi.so(MPI_Init_thread+0xcd)[0x7bd4e463dfbd]
+[nd-detect-integrate:397754] [21] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(NQJ_Init_thread+0xfc)[0x7bd4e5862f8c]
+[nd-detect-integrate:397754] [22] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(+0x5edba)[0x7bd4e5862dba]
+[nd-detect-integrate:397754] [23] /home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so(MPI_Init_thread+0x96)[0x7bd4e5862e75]
+/home/exouser/Quicksilver/src/qs(+0x70de)[0x5ee9c68f10de]
+[nd-detect-integrate:397759] [26] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x73782b829d90]
+[nd-detect-integrate:397759] [27] [nd-detect-integrate:397754] [24] /home/exouser/Quicksilver/src/qs(+0x329d7)[0x5e923c90a9d7]
+[nd-detect-integrate:397754] [25] /home/exouser/Quicksilver/src/qs(+0x70de)[0x5e923c8df0de]
+[nd-detect-integrate:397754] [26] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x73782b829e40]
+[nd-detect-integrate:397759] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x5ee9c68f13b5]
+[nd-detect-integrate:397759] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7bd4e4c29d90]
+[nd-detect-integrate:397754] [27] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7bd4e4c29e40]
+[nd-detect-integrate:397754] [28] /home/exouser/Quicksilver/src/qs(+0x73b5)[0x5e923c8df3b5]
+[nd-detect-integrate:397754] *** End of error message ***
+--------------------------------------------------------------------------
+
+prterun noticed that process rank 0 with PID 397735 on node nd-detect-integrate exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------

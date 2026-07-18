@@ -44,6 +44,7 @@ void mpiSend           ( void *buf, int count, MPI_Datatype datatype, int dest, 
 void mpiType_contiguous( int count, MPI_Datatype old_type, MPI_Datatype *newtype );
 void mpiType_commit    ( MPI_Datatype *datatype ) ;
 void mpiAllreduce      ( void *sendbuf, void *recvbuf, int count, MPI_Datatype datatype, MPI_Op operation, MPI_Comm comm );
+void mpiAlltoall       ( void *sendbuf, int sendcount, MPI_Datatype sendtype, void *recvbuf, int recvcount, MPI_Datatype recvtype, MPI_Comm comm );
 void mpiIAllreduce     ( void *sendbuf, void *recvbuf, int count, MPI_Datatype datatype, MPI_Op operation, MPI_Comm comm, MPI_Request *request);
 void mpiScan           ( void *sendbuf, void *recvbuf, int count, MPI_Datatype datatype, MPI_Op operation, MPI_Comm comm );
 void mpiAbort          ( MPI_Comm comm, int errorcode );
@@ -83,6 +84,7 @@ typedef int MPI_Op ;
 #define MPI_UINT64_T MPI_UNSIGNED_LONG_LONG
 
 #define MPI_COMM_WORLD  (1)
+#define MPI_COMM_SELF   (2)
 
 #define MPI_MAX         (1)
 #define MPI_MIN         (2)
@@ -112,6 +114,7 @@ inline void mpiSend(void *buf, int count, MPI_Datatype datatype, int dest, int t
     { printf ("mpiSend should not be called in serial run\n"); qs_assert(false); }
 
 inline void mpiBcast( void* buf, int count, MPI_Datatype datatype, int root, MPI_Comm comm){return;}
+inline void mpiAlltoall( void *sendbuf, int sendcount, MPI_Datatype sendtype, void *recvbuf, int recvcount, MPI_Datatype recvtype, MPI_Comm comm ){return;}
 
 double mpiWtime( void );
 int  mpiComm_split( MPI_Comm comm, int color, int key, MPI_Comm *newcomm);

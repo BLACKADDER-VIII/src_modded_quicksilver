@@ -13,7 +13,7 @@ for r in range(NUM_RUNS):
     subprocess.run(["cp", HERE/"qs_large.sh", run_dir])
     subprocess.run(["cp", HERE/"default_glibc.json", run_dir])
     subprocess.run(["bash", "qs_large.sh"], cwd=run_dir)
-    subprocess.run(["python", "/home/exouser/mcb_test_app/process_ooo.py", str(run_dir)], cwd=run_dir)
+    subprocess.run(["python", HERE/"process_ooo.py", str(run_dir)], cwd=run_dir)
     print(f"Finished run {r}...")
 
 print("Finished all runs")

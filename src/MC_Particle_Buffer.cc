@@ -45,8 +45,24 @@ static inline void stamp_outgoing(long *sc_field)
     *sc_field = local_clock;
 }
 
+// Marks an out-of-order receive on this rank's timeline in the dumpi event
+// graph: a dummy Alltoall on MPI_COMM_SELF completes locally, so no other
+// rank is disturbed. The n-th Alltoall in a rank's trace corresponds to the
+// n-th OOO row that aggregate_ooo.py derives from that rank's tsv.
+static inline void checkpoint_ooo(void)
+{
+    int dummy_send = 0, dummy_recv = 0;
+    mpiAlltoall(&dummy_send, 1, MPI_INT, &dummy_recv, 1, MPI_INT, MPI_COMM_SELF);
+}
+
 static inline void log_recv(int source, long sc)
 {
+    // Same OOO rule as aggregate_ooo.py: a receive is out-of-order when its
+    // sender clock is below the max sender clock this rank has already seen.
+    static long max_sc = 0;
+    if (sc < max_sc) checkpoint_ooo();
+    if (sc > max_sc) max_sc = sc;
+
     if (sc + 1 > local_clock) local_clock = sc + 1;
     else                      local_clock++;
     if (trace_fp) fprintf(trace_fp, "%d\t%ld\n", source, sc);
