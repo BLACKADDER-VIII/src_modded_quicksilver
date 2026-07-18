@@ -26,8 +26,15 @@ static std::map<int, int> recv_count;
 static long  local_clock = 0;
 static FILE *trace_fp    = NULL;
 
+// Initialize()/Free_Memory() run every cycle (cycleInit/cycleFinalize), but
+// the trace must span the whole run: open the file once, and on the per-cycle
+// "close" only flush. Otherwise each cycle truncates the tsv down to the final
+// cycle's rows.
 static void trace_open(int rank)
 {
+    static bool opened = false;
+    if (opened) return;
+    opened = true;
     char fname[64];
     snprintf(fname, sizeof fname, "trace_rank_%05d.tsv", rank);
     trace_fp = fopen(fname, "w");
@@ -36,7 +43,8 @@ static void trace_open(int rank)
 
 static void trace_close(void)
 {
-    if (trace_fp) { fclose(trace_fp); trace_fp = NULL; }
+    // Flush, don't fclose: stdio closes the stream at normal process exit.
+    if (trace_fp) fflush(trace_fp);
 }
 
 static inline void stamp_outgoing(long *sc_field)
@@ -45,24 +53,8 @@ static inline void stamp_outgoing(long *sc_field)
     *sc_field = local_clock;
 }
 
-// Marks an out-of-order receive on this rank's timeline in the dumpi event
-// graph: a dummy Alltoall on MPI_COMM_SELF completes locally, so no other
-// rank is disturbed. The n-th Alltoall in a rank's trace corresponds to the
-// n-th OOO row that aggregate_ooo.py derives from that rank's tsv.
-static inline void checkpoint_ooo(void)
-{
-    int dummy_send = 0, dummy_recv = 0;
-    mpiAlltoall(&dummy_send, 1, MPI_INT, &dummy_recv, 1, MPI_INT, MPI_COMM_SELF);
-}
-
 static inline void log_recv(int source, long sc)
 {
-    // Same OOO rule as aggregate_ooo.py: a receive is out-of-order when its
-    // sender clock is below the max sender clock this rank has already seen.
-    static long max_sc = 0;
-    if (sc < max_sc) checkpoint_ooo();
-    if (sc > max_sc) max_sc = sc;
-
     if (sc + 1 > local_clock) local_clock = sc + 1;
     else                      local_clock++;
     if (trace_fp) fprintf(trace_fp, "%d\t%ld\n", source, sc);
