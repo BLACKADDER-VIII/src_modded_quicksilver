@@ -24,6 +24,7 @@ static std::map<int, int> recv_count;
 // Mirrors the scheme in mcb_test_app/mcb_ord_test.cpp so the same
 // aggregate_ooo.py consumer works against Quicksilver runs.
 static long  local_clock = 0;
+static long  max_recv_sc = 0;   // max sender clock seen across all sources (mirrors process_ooo.py)
 static FILE *trace_fp    = NULL;
 
 // Initialize()/Free_Memory() run every cycle (cycleInit/cycleFinalize), but
@@ -47,6 +48,20 @@ static void trace_close(void)
     if (trace_fp) fflush(trace_fp);
 }
 
+// Traced by ANACIN-X: a barrier on MPI_COMM_SELF involves only this rank
+// (completes immediately, blocks no one) and marks in the event graph the
+// point where an OOO receive was recorded in the tsv.
+// noinline/noclone: must exist out-of-line at a fixed address so CSMPI's
+// backtrace shows this frame and the symtab captures it.
+__attribute__((noinline, noclone))
+static void nd_checkpoint_func(void)
+{
+    mpiBarrier(MPI_COMM_SELF);
+    // Keep this frame live across the call: otherwise GCC tail-calls
+    // mpiBarrier (jmp) and this function never appears in CSMPI backtraces.
+    __asm__ volatile("");
+}
+
 static inline void stamp_outgoing(long *sc_field)
 {
     local_clock++;
@@ -55,6 +70,9 @@ static inline void stamp_outgoing(long *sc_field)
 
 static inline void log_recv(int source, long sc)
 {
+    if (sc < max_recv_sc) nd_checkpoint_func();   // OOO per process_ooo.py's rule
+    if (sc > max_recv_sc) max_recv_sc = sc;
+
     if (sc + 1 > local_clock) local_clock = sc + 1;
     else                      local_clock++;
     if (trace_fp) fprintf(trace_fp, "%d\t%ld\n", source, sc);
