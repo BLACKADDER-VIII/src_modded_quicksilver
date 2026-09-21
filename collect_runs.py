@@ -14,7 +14,13 @@ NUM_RUNS = int(sys.argv[2]) if len(sys.argv) > 2 else 10
 for r in range(NUM_RUNS):
     run_dir = STORE_DIR/f"run_{r}"
     os.makedirs(run_dir)
-    subprocess.run(["cp", HERE/"qs_large.sh", run_dir])
+    if NUM_RANKS == 32:
+        subprocess.run(["cp", HERE/"qs_32.sh", run_dir])
+    elif NUM_RANKS == 64:
+        subprocess.run(["cp", HERE/"qs_64.sh", run_dir])
+    else:
+        print("Need rank size to be 32 or 64")
+        exit()
     subprocess.run(["cp", HERE/"default_glibc.json", run_dir])
     if NUM_RANKS == 32:
         subprocess.run(["bash", "qs_32.sh"], cwd=run_dir)
