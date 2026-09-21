@@ -1,0 +1,1 @@
+mpirun -np 64 /home/exouser/src_modded_quicksilver/src/qs -i /home/exouser/src_modded_quicksilver/Examples/Homogeneous/homogeneousProblem_v5_ts_large.inp --lx=200 --ly=200 --lz=200 --nx=20 --ny=20 --nz=20 --xDom=4 --yDom=4 --zDom=4 --nParticles=100000>& log.txt
