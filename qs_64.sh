@@ -24,5 +24,5 @@
 # nSteps=60). nParticles is absent from the .inp, so the CLI flag still applies.
 rm -f dumpi-*.bin dumpi-*.meta pluto_out*.txt
 export CSMPI_CONFIG=default_glibc.json
-OMP_NUM_THREADS=1 LD_PRELOAD=/home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so PNMPI_LIB_PATH=/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs PNMPI_CONF=/home/exouser/ANACIN-X/anacin-x/pnmpi/configs/dumpi_pluto_csmpi.conf mpirun -np 64 /home/exouser/Quicksilver/src/qs -i /home/exouser/Quicksilver/Examples/Homogeneous/homogeneousProblem_v5_ts_large.inp --lx=200 --ly=200 --lz=200 --nx=20 --ny=20 --nz=20 --xDom=4 --yDom=4 --zDom=4 --nParticles=100000>& log.txt &&
+OMP_NUM_THREADS=1 LD_PRELOAD=/home/exouser/ANACIN-X/submodules/PnMPI/build/lib/libpnmpi.so PNMPI_LIB_PATH=/home/exouser/ANACIN-X/anacin-x/pnmpi/patched_libs PNMPI_CONF=/home/exouser/ANACIN-X/anacin-x/pnmpi/configs/dumpi_pluto_csmpi.conf mpirun -np 64 /home/exouser/src_modded_quicksilver/src/qs -i /home/exouser/Quicksilver/Examples/Homogeneous/homogeneousProblem_v5_ts_large.inp --lx=200 --ly=200 --lz=200 --nx=20 --ny=20 --nz=20 --xDom=4 --yDom=4 --zDom=4 --nParticles=100000>& log.txt &&
 mpirun -np 64 --bind-to none /home/exouser/ANACIN-X/submodules/dumpi_to_graph/build/dumpi_to_graph /home/exouser/ANACIN-X/submodules/dumpi_to_graph/config/dumpi_and_csmpi.json . >& dumpi_to_graph_output.txt
