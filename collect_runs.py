@@ -29,7 +29,7 @@ for r in range(NUM_RUNS):
     else:
         print("Need ranks to be 32 or 64")
         exit()
-    subprocess.run(["python", "/home/exouser/mcb_test_app/process_ooo.py", str(run_dir)], cwd=run_dir)
+    subprocess.run(["python", "/home/exouser/src_modded_quicksilver/process_ooo.py", str(run_dir)], cwd=run_dir)
     print(f"Finished run {r}...")
 
 print("Finished all runs")
